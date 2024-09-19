@@ -100,20 +100,14 @@ Volvo 142E             4    2
  $ am  : num  1 1 1 0 0 0 0 0 0 0 ...
  $ gear: num  4 4 4 3 3 3 3 4 4 4 ...
  $ carb: num  4 4 1 1 2 1 4 2 2 4 ...
-> quantile(mtcars$impg)
-  0%  25%  50%  75% 100% 
-  NA   NA   NA   NA   NA 
+
 > quantile(mtcars$mpg)
     0%    25%    50%    75%   100% 
 10.400 15.425 19.200 22.800 33.900 
-> class(Cars)
-Error: object 'Cars' not found
 > class(cars)
 [1] "data.frame"
 > dim(cars)
 [1] 50  2
-> quantile(car$speed)
-Error: object 'car' not found
 > quantile(cars$speed)
   0%  25%  50%  75% 100% 
    4   12   15   19   25 
